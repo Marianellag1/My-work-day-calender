@@ -1,6 +1,6 @@
 var today = moment();
 var time = "h:mm"
-$("#current-day").text(today.format('dddd, MMMM Do'));
+$("#current-day").text(today.format('dddd, MMMM Do'));//current day is displaying
 
 var saveButton = document.querySelector("tbody");
 var notes = document.querySelectorAll("textarea").value;
@@ -16,13 +16,13 @@ function hourDisplay(moment) {
     if (time === presentTime) {
 
     }
-}
+}//need to see how to connect current time to time-block
 
 function renderLastWritten() {
     var timeSlot = localStorage.getItem("timeSlot");
 
     userWroteSpan.textContent = timeSlot;
-    document.body.appendChild(userWroteSpan);
+    document.body.appendChild(userWroteSpan);//tried making the text stay on page even if user reloads
 
 }
 
