@@ -1,4 +1,4 @@
-GIVEN I am using a daily planner to create a schedule:
+GIVEN I am using a daily planner to create a schedule: https://marianellag1.github.io/My-work-day-calender/
 
 WHEN I open the planner
 THEN the current day is displayed at the top of the calendar
