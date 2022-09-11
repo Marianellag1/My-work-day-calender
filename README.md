@@ -1,4 +1,30 @@
-# 05 Third-Party APIs: Work Day Scheduler
+GIVEN I am using a daily planner to create a schedule:
+
+WHEN I open the planner
+THEN the current day is displayed at the top of the calendar
+    //moment js has to be inserted to show the name of the day, month and date number of the current day.
+    // when I insert correct code to show todays date. (it displays!)
+
+WHEN I scroll down
+THEN I am presented with timeblocks for standard business hours
+    //business hours = 9 to 5 schedule. (got the 9-5 done)
+    //colums have to show time at left, text are at center, save on right
+
+WHEN I view the timeblocks for that day
+THEN each timeblock is color coded to indicate whether it is in the past, present, or future
+    //in jqueryui include/exclude items source should be used
+    //in current time, green should appear, in past time gray should appear, and in future time red should appear 
+    
+WHEN I click into a timeblock
+THEN I can enter an event
+WHEN I click the save button for that timeblock
+THEN the text for that event is saved in local storage
+WHEN I refresh the page
+THEN the saved events persist
+    //these go together as any text the user puts in should be saved in local storage,
+    //and continue even if user refreshes the page# 05 Third-Party APIs: Work Day Scheduler
+![Screenshot 2022-09-10 235623](https://user-images.githubusercontent.com/110939445/189513158-ef557eac-35f2-4683-9e62-504843412a60.png)
+![Screenshot 2022-09-10 235715](https://user-images.githubusercontent.com/110939445/189513163-0ca62411-fb4b-4ff5-b5c2-9d69c5c4f89d.png)
 
 ## Your Task
 
