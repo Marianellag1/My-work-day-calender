@@ -16,74 +16,60 @@
 <body>
   <header class="jumbotron">
     <h1 class="display-3">Work Day Scheduler</h1>
-    <p class="lead">A simple calendar app for scheduling your work day</p>
-    <p id="current-day" class="lead"></p>
+    <p class="lead"><strong> A simple calendar app for scheduling your work day</strong></p>
+    <p id="current-day" class="lead description"></p>
   </header>
   <div class="container">
     <!-- Timeblocks go here -->
     <table class="table">
-      <thead>
-        <tr>
-          <th scope="col">#</th>
-          <th scope="col">First</th>
-          <th scope="col">Last</th>
-          <th scope="col">Handle</th>
-        </tr>
-      </thead>
+      <!-- refer all style to style.css -->
       <tbody>
         <tr>
-          <th scope="row">9AM</th>
-          <td>Mark</td>
-          <td>Otto</td>
-          <td>@mdo</td>
+          <th scope="row" class="time-block hour past present future">9AM</th>
+          <td ><textarea class="row" cols="50" rows="2"></textarea ><span id="user-notes"></span></td>
+          <span id="user-notes"></span>
+          <td class="saveBtn">&#128190;</td>
         </tr>
         <tr>
-          <th scope="row">10AM</th>
-          <td>Jacob</td>
-          <td>Thornton</td>
-          <td>@fat</td>
+          <th scope="row" class="time-block hour past present future">10AM</th>
+          <td ><textarea class="row" cols="50" rows="2"></textarea></td>
+          <td class="saveBtn">&#128190;</td>
         </tr>
         <tr>
-          <th scope="row">11AM</th>
-          <td>Larry</td>
-          <td>the Bird</td>
-          <td>@twitter</td>
+          <th scope="row" class="time-block hour past present future">11AM</th>
+          <td id="eleven-am"><textarea class="row" cols="50" rows="2"></textarea></td>
+          <td class="saveBtn">&#128190;</td>
         </tr>
         <tr>
-          <th scope="row">12PM</th>
-          <td>Larry</td>
-          <td>the Bird</td>
-          <td>@twitter</td>
+          <th scope="row" class="time-block hour past present future">12PM</th>
+          <td id="twelve-pm"><textarea class="row" cols="50" rows="2"></textarea></td>
+          <td class="saveBtn">&#128190;</td>
         </tr>
         <tr>
-          <th scope="row">1PM</th>
-          <td>Larry</td>
-          <td>the Bird</td>
-          <td>@twitter</td>
+          <th scope="row" class="time-block hour past present future">1PM</th>
+          <td id="one-pm"><textarea class="row" cols="50" rows="2"></textarea></td>
+          <td class="saveBtn">&#128190;</td>
         </tr>
         <tr>
-          <th scope="row">2PM</th>
-          <td>Larry</td>
-          <td>the Bird</td>
-          <td>@twitter</td>
+          <th scope="row" class="time-block hour past present future">2PM</th>
+          <td id="two-pm"><textarea class="row" cols="50" rows="2"></textarea></td>
+          <td class="saveBtn">&#128190;</td>
         </tr>
         <tr>
-          <th scope="row">3PM</th>
-          <td>Larry</td>
-          <td>the Bird</td>
-          <td>@twitter</td>
+          <th scope="row" class="time-block hour past present future">3PM</th>
+          <td id="three-pm"><textarea class="row" cols="50" rows="2"></textarea></td>
+          <td class="saveBtn">&#128190;</td>
         </tr>
         <tr>
-          <th scope="row">4PM</th>
-          <td>Larry</td>
-          <td>the Bird</td>
-          <td>@twitter</td>
+          <th scope="row" class="time-block hour past present future">4PM</th>
+          <td id="four-pm"><textarea class="row" cols="50" rows="2"></textarea></td>
+          <td class="saveBtn">&#128190;</td>
         </tr>
         <tr>
-          <th scope="row">5PM</th>
-          <td>Larry</td>
-          <td>the Bird</td>
-          <td>@twitter</td>
+          <th scope="row" class="time-block hour past present future">5PM</th>
+          <td id="five-pm"><textarea class="row" cols="50" rows="2"></textarea></td>
+          <td class="saveBtn">&#128190;</td>
+          <!-- refer all style to style.css -->
         </tr>
       </tbody>
     </table>
